@@ -24,32 +24,44 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Javascript and Java. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              and I specialize in crafting &nbsp;
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  full-stack applications using the MERN stack{" "}
+                </b>{" "}
+                with{" "}
+                <b className="purple">
+                  TypeScript, Next.js, MongoDB Atlas, and Mongoose .
                 </b>
+                in my toolkit.
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              I’ve worked with tools like{" "}
+              <b className="purple">
+                Docker, Kubernetes (Minikube, kubectl, Helm), CI/CD pipelines,
+              </b>{" "}
+              and even code quality tools like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> ESLint and SonarQube.</b>
               </i>
+              <br />
+              <br />
+              Currently, I’m
+              <i>
+                <b className="purple"> leading </b>
+              </i>
+              the development of Planit – a task tracking and productivity tool
+              for AIESEC in Faisalabad, where I serve as the
+              <i>
+                <b className="purple"> Executive Board Responsible. </b>
+              </i>
+              I manage an entire dev team, from strategy to execution, making
+              sure we ship tools that actually empower teams.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +79,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Faiq-Dogar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +87,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +96,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/faiq-zeeshan-dogar-120141253/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +109,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/faiq_dogar4363/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
