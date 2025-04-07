@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Rentlink from "../../Assets/Projects/Rentlink.png";
+import Jugaad from "../../Assets/Projects/Jugaad.png";
+import Planit from "../../Assets/Projects/Planit.png";
 
 function Projects() {
   return (
@@ -22,6 +25,66 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Rentlink}
+              isBlog={false}
+              title="RentLink"
+              description="A web-based platform for tenants and landlords with features like role-based access control (RBAC), ticketing systems, financial management, and contract customization. Implemented DevOps practices including CI/CD pipelines, Docker for containerization, automated testing, and cloud hosting for scalability and reliability."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Planit}
+              isBlog={false}
+              title="Planit – Task Tracking and Productivity Tool "
+              description="A task management and tracking tool designed for AIESEC in Faisalabad, enabling teams to efficiently assign, track, and manage tasks with real-time updates. Implemented role-based access control (RBAC) and automated notifications, Allows teams to schedule meeting, manage a resource hub and deployment to seamless collaboration."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://planit-aiesec.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Jugaad}
+              isBlog={false}
+              title="Company Portfolio Website"
+              description="A professional company portfolio website designed to showcase services, team, and key projects. Built with responsive UI, it highlights the brand identity, includes contact forms, and integrates smooth navigation for an engaging user experience."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://master--effulgent-narwhal-2dd44d.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={chatify}
+              isBlog={false}
+              title="Mock Interview and CV tracking System"
+              description="Developed the application in MERN stack using all the latest practices in the market."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://master--effulgent-narwhal-2dd44d.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={chatify}
+              isBlog={false}
+              title="Encyclopedia of Arabic Poetry"
+              description="Developed using Java and MySQL; features an interactive GUI to explore pre-Islamic Arabic poetry, enhancing understanding with word origins and roots."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://master--effulgent-narwhal-2dd44d.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={chatify}
+              isBlog={false}
+              title="Inventory Management System"
+              description="Designed and implemented C++ based application using Object-Oriented and Data Structures concepts and file-handling	"
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://master--effulgent-narwhal-2dd44d.netlify.app/"
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -86,7 +149,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
